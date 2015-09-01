@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<output xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="hotels_schema.xsd">
+	<hotels>
+		<hotel>
+			<title>Estancia La Jolla</title>
+			<street_addr>306 E Magnolia Ave</street_addr>
+			<phone>193-293-2937</phone>
+			<email>lajolla@gmail.com</email>
+			<web>www.google.com</web>
+			<image_link>http://www.broadwayindetroit.com/userfiles/image/Westin%20Photo.jpg</image_link>
+		</hotel>
+		<hotel>
+			<title>Hotel 1</title>
+			<street_addr>607 Creekside Dr, Apt 16</street_addr>
+			<phone>phone</phone>
+			<email></email>
+			<web>web</web>
+			<image_link>http://lajollatravelinformation.com/wp-content/uploads/2013/05/Estancia-La-Jolla-Hotel-edited-for-LJTI3.jpg</image_link>
+		</hotel>
+		<hotel>
+			<title>Post Ranch Inn</title>
+			<street_addr>47900 CA-1</street_addr>
+			<phone>(831) 667-2200</phone>
+			<email>reservations@postranchinn.com</email>
+			<web>http://www.postranchinn.com/</web>
+			<image_link>https://farm3.staticflickr.com/2802/4169879473_74414f88e6_z.jpg?zz=1</image_link>
+		</hotel>
+		<hotel>
+			<title>Glen Oaks Big Sur</title>
+			<street_addr>47080 CA-1</street_addr>
+			<phone>(831) 667-2105</phone>
+			<email>frontdesk@glenoaksbigsur.com</email>
+			<web>http://www.glenoaksbigsur.com/</web>
+			<image_link>http://www.glenoaksbigsur.com/images/slides/firepit.jpg</image_link>
+		</hotel>
+		<hotel>
+			<title>The Hotel at Auburn University &amp; Dixon Conference Center</title>
+			<street_addr>241 S College St</street_addr>
+			<phone>(334) 821-8200</phone>
+			<email/>
+			<web>http://www.auhcc.com/</web>
+			<image_link>http://www.auhcc.com/upload/img/822_01_Hotel_Lobby.jpg</image_link>
+		</hotel>
+	</hotels>
+</output>

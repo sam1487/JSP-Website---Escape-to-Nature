@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="web" type="xs:anyURI"/>
+	
+	<xs:element name="email">
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:pattern value="\S*"/> 
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	
+	<xs:element name="hotel">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="title"/>
+				<xs:element ref="street_addr"/>
+				<xs:element ref="phone"/>
+				<xs:element ref="email"/>
+				<xs:element ref="web"/>
+				<xs:element ref="image_link"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+		
+	<xs:element name="image_link" type="xs:anyURI"/>
+	
+	<xs:element name="street_addr" type="xs:string" />
+	
+	<xs:element name="phone" type="xs:string" />
+		
+	<xs:element name="title" type="xs:string"/>
+	
+	<xs:element name="hotels">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="hotel" maxOccurs="unbounded"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	
+	<xs:element name="output">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="hotels"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	
+</xs:schema>
